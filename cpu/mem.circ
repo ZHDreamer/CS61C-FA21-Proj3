@@ -152,13 +152,34 @@
     </tool>
   </toolbar>
   <circuit name="mem">
-    <a name="appearance" val="logisim_evolution"/>
+    <a name="appearance" val="custom"/>
     <a name="circuit" val="mem"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="circuitvhdlpath" val=""/>
     <a name="clabel" val=""/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="clabelup" val="east"/>
+    <appear>
+      <circ-anchor facing="east" height="6" width="6" x="267" y="57"/>
+      <circ-port height="10" pin="810,390" width="10" x="265" y="55"/>
+      <circ-port height="8" pin="210,190" width="8" x="46" y="36"/>
+      <circ-port height="8" pin="210,280" width="8" x="46" y="66"/>
+      <circ-port height="8" pin="210,390" width="8" x="46" y="96"/>
+      <circ-port height="8" pin="210,530" width="8" x="46" y="126"/>
+      <rect fill="none" height="140" stroke="#000000" stroke-width="2" width="200" x="60" y="30"/>
+      <rect height="20" stroke="none" width="200" x="60" y="150"/>
+      <rect height="3" stroke="none" width="10" x="50" y="129"/>
+      <rect height="4" stroke="none" width="10" x="260" y="58"/>
+      <rect height="4" stroke="none" width="10" x="50" y="38"/>
+      <rect height="4" stroke="none" width="10" x="50" y="68"/>
+      <rect height="4" stroke="none" width="10" x="50" y="98"/>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="end" x="255" y="64">Read_Data</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="104">Write_Data</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="134">clk</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="44">Address</text>
+      <text dominant-baseline="alphabetic" fill="#404040" font-family="Dialog" font-size="12" text-anchor="start" x="65" y="74">Write_En</text>
+      <text dominant-baseline="alphabetic" fill="#ffffff" font-family="Dialog" font-size="14" font-weight="bold" text-anchor="middle" x="160" y="164">mem</text>
+    </appear>
     <comp lib="0" loc="(210,190)" name="Pin">
       <a name="label" val="Address"/>
       <a name="locked" val="true"/>
